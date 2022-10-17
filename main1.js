@@ -49,3 +49,5 @@ ok.addEventListener('click', () => {
     card.style.display = 'none';
   }
 })
+
+alert('Please turn on desktop mode');
