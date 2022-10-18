@@ -78,5 +78,5 @@ ok.addEventListener('click', () => {
   }
 })
 
-// alert('Please turn on desktop mode');
+alert('Please turn on desktop mode');
 
