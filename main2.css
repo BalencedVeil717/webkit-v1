@@ -92,6 +92,7 @@ img{
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.2s;
+  overflow: visible;
 }
 
 .card:hover {
@@ -149,7 +150,7 @@ img{
   background: radial-gradient(#1fe4f5, #3fbafe);
   position: fixed;
   display: inline-block;
-  top: 20%;
+  top: 250px;
   left: 0;
 }
 
