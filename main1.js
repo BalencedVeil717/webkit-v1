@@ -23,24 +23,52 @@ function handleBackspace() {
   }
 }
 
-const toggleBtn = document.querySelector('#change');
+const change1 = document.querySelector('#change1');
 const calculator = document.querySelector('.main1');
+const change2 = document.querySelector('#change2');
 const clock = document.querySelector('.main2');
+const change3 = document.querySelector('#change3')
+const calendar = document.querySelector('.main3')
 const ok = document.querySelector('#ok');
 const card = document.querySelector('.card');
 
-toggleBtn.addEventListener('click', () => {
+change1.addEventListener('click', () => {
   if(calculator.style.display === 'none') {
     calculator.style.display = 'flex';
     clock.style.display = 'none';
-    document.getElementById('change').innerText = 'Show CLOCK';
+    calendar.style.display = 'none';
   }  else{
+    calculator.style.display = 'flex';
+  }
+}
+);
+change2.addEventListener('click', () => {
+  if(clock.style.display === 'none') {
     calculator.style.display = 'none';
     clock.style.display = 'flex';
-    document.getElementById('change').innerText = 'Show CALCULATOR';
+    calendar.style.display = 'none';
+    
+  }  else{
+    clock.style.display = 'flex';
+    calculator.style.display = 'none';
+    calendar.style.display = 'none';
+  }
+}
+);
+change3.addEventListener('click', () => {
+  if(calendar.style.display === 'none') {
+    calendar.style.display = 'flex'
+    calculator.style.display = 'none';
+    clock.style.display = 'none';
+  }  else{
+    calendar.style.display = 'flex'
+    calculator.style.display = 'none';
+    clock.style.display = 'none';
     }
   }
 );
+
+
 
 ok.addEventListener('click', () => {
   if(card.style.display === 'grid') {
@@ -50,4 +78,5 @@ ok.addEventListener('click', () => {
   }
 })
 
-alert('Please turn on desktop mode');
+// alert('Please turn on desktop mode');
+
