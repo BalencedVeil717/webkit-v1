@@ -16,21 +16,17 @@
   <link rel="stylesheet" href="./main1.css">
   <link rel="stylesheet" href="./main2.css">
   <link rel="shortcut icon" href="./favicon.png" type="image/png">
+  <link rel="stylesheet" href="./main3.css">
 
 </head>
 
 <body>
-  <div class="card card-1">
-    <div class="card__icon"><i class="fas fa-bolt"></i></div>
-    <p class="card__exit"><i class="fas fa-times"></i></p>
-    <h2 class="card__title">Please Turn On Desktop Mode If You Are On Mobile And Can't See All The Objects Clearly.</h2>
-    <p class="card__apply">
-      <button class="card__link" id="ok" >OK<i class="fas fa-arrow-right"></i></button>
-    </p>
-  </div>
-  <button type="button" id="change" class="change"><b>Show CLOCK</b></button>
+  
+  <button type="button" id="change1" class="change1"><b>CALCULATOR</b></button>
+  <button type="button" id="change2" class="change2"><b>CLOCK</b></button>
+  <button type="button" id="change3" class="change3"><b>CALENDAR</b></button>
   <div class="main1">
-    <h1 class="name">CALCULATOR</h1>
+    <h1 class="name"><b>CALCULATOR</b></h1>
     <form name="form" onsubmit="getResult()">
       <div class="calculator">
         <div class="result-section">
@@ -76,7 +72,7 @@
     </form>
   </div>
   <div class="main2">
-    <h1 class="name">CLOCK</h1>
+    <h1 class="name"><b>CLOCK</b></h1>
     <div class="clock">
       <img src="template.svg">
       <div class="hour hand" id="hour"></div>
@@ -84,9 +80,39 @@
       <div class="seconds hand" id="seconds"></div>
 </div>
   </div>
+  <div class="main3">
+    <h1 class="name"><b>CALENDAR</b></h1>
+      <div class="box">
+          <div class="container">
+              <div id="calendar">
+
+              </div>
+            
+          </div>
+      </div>
+     
+  </div>
+  <div class="card card-1">
+    <div class="card__icon"><i class="fas fa-bolt"></i></div>
+    <p class="card__exit"><i class="fas fa-times"></i></p>
+    <h2 class="card__title">Please Turn On Desktop Mode If You Are On Mobile And Can't See All The Objects Clearly.</h2>
+    <p class="card__apply">
+      <button class="card__link" id="ok" >OK<i class="fas fa-arrow-right"></i></button>
+    </p>
+  </div>
 </body>
 <script src="./main1.js"></script>
 <script src="./main2.js"></script>
+<script src="./main3.js"></script>
+<script>dycalendar.draw({
+  target:'#calendar',
+  type:'month',
+  dayformat:'full',
+  monthformat:'full',
+  highlighttargetdate:true,
+  prevnextbutton:'show'
+
+})</script>
 </body>
 
 </html>
