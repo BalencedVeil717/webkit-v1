@@ -24,12 +24,13 @@ change2.addEventListener('click', () => {
   if(clock.style.display === 'none') {
     calculator.style.display = 'none';
     clock.style.display = 'flex';
-    calendar.style.display = 'none';
-    
+    calendar.style.display = 'none';    
+    clock2change.style.display = 'none';
   }  else{
     clock.style.display = 'flex';
     calculator.style.display = 'none';
     calendar.style.display = 'none';
+    clock2change.style.display = 'none';
   }
 }
 );
@@ -38,10 +39,12 @@ change3.addEventListener('click', () => {
     calendar.style.display = 'flex';
     calculator.style.display = 'none';
     clock.style.display = 'none';
+    clock2change.style.display = 'none';
   }  else{
     calendar.style.display = 'flex';
     calculator.style.display = 'none';
     clock.style.display = 'none';
+    clock2change.style.display = 'none';
 }
 }
 );
