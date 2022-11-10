@@ -1,6 +1,14 @@
 # THIS PROJECT CONTAINS
 
-<h2>Calculator V2</h2>
+## `Calculator V2`
+![Calculatorv2](https://github.com/BalencedVeil717/projects/blob/main/previews/Calculatorv2.jpg?raw=true)
 
 
-<h2>Clock</h2>
+## `Clock 1`
+![Clock1](https://github.com/BalencedVeil717/projects/blob/main/previews/Clock1.jpg?raw=true)
+
+## `Clock 2`
+![Clock2](https://github.com/BalencedVeil717/projects/blob/main/previews/Clock2.jpg?raw=true)
+
+## `Calendar`
+![Calendar](https://github.com/BalencedVeil717/projects/blob/main/previews/Calendar.png?raw=true)
