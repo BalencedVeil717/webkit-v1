@@ -338,6 +338,9 @@ section{
     justify-content: center;
     align-items: center;
     margin-right: 100px;
+    -webkit-box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+    box-shadow: 0 0 50px rgb(65, 2, 75);
+    border-radius: 30px;
 }
 #calendar{
     width: 100%;
