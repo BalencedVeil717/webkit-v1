@@ -15,6 +15,7 @@ change1.addEventListener('click', () => {
     calculator.style.display = 'flex';
     clock.style.display = 'none';
     calendar.style.display = 'none';
+    clock2change.style.display = 'none';
   }  else{
     calculator.style.display = 'flex';
   }
