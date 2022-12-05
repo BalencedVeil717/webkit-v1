@@ -237,3 +237,29 @@ body {
 .change3 {
   top: 160px;
 }
+
+.buy {
+  position: fixed;
+  width: 200px;
+  height: 60px;
+  margin: 20px;
+  background: radial-gradient(#1fe4f5, #3fbafe);
+  display: inline-block;
+  top: 635px;
+  left: 0;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+.suppoprt-me img {
+  height: inherit;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 1;
+  padding: 5px;
+  margin-top: 6px;
+  margin-left: 4.5px;
+}
