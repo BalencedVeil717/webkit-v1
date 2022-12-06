@@ -252,14 +252,12 @@ body {
 }
 
 .suppoprt-me img {
-  height: inherit;
-  width: 190px;
+  height: 110px;
+  width: 200px;
   display: flex;
-  align-items: center;
   justify-content: center;
   position: fixed;
   opacity: 1;
-  padding: 5px;
-  margin-top: 6px;
-  margin-left: 4.5px;
+  margin-top: 0px;
+  top: 633px;
 }
